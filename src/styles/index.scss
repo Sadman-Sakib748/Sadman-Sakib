@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$primary-200: #338dff;
+$primary-400: #0070ff;
+$primary-600: #0f00ff;
+
+html {
+    height: -webkit-fill-available !important;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    @apply font-body bg-gray-950;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply font-display;
+}
+
+::-webkit-scrollbar {
+    // width: 5px;
+    // &-thumb {
+    //     background-color: #0070ff;
+    //     border-radius: 5px;
+    //     &:hover {
+    //         background-color: #0f00ff;
+    //     }
+    //     &:active {
+    //         background-color: #0f00ff;
+    //     }
+    // }
+
+    // &-track {
+    //     background-color: #eee;
+    // }
+
+    // &-corner {
+    //     background-color: #eee;
+    // }
+    display: none;
+}
+
+@import "./anim";
