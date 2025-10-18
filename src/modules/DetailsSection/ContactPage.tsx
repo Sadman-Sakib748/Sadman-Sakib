@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaLinkedin, FaGithub, FaEnvelope, FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin, FaGithub,  FaXTwitter } from "react-icons/fa6";
 import AnimatedText from "../../components/AnimatedText";
 import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
@@ -26,11 +26,6 @@ const links = [
         name: "GitHub",
         icon: <FaGithub />,
         href: "https://github.com/Sadman-Sakib748",
-    },
-    {
-        name: "Email",
-        icon: <FaEnvelope />,
-        href: "mailto:sadman.sakib34523@gmail.com",
     },
 ];
 
