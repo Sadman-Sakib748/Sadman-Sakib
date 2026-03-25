@@ -1,5 +1,21 @@
 export const projectsData = [
     {
+        title: "Optimizify – Full Stack Portfolio Management System",
+        summary:
+            "Optimizify is a full-featured portfolio management system that allows users to create, update, and manage their projects seamlessly. It features a dynamic admin dashboard, responsive UI, and optimized performance for production, offering a smooth and intuitive experience for both users and admins.",
+        projectType: "Company",
+        githubLink: "https://github.com/Sadman-Sakib748/megha-mart",
+        liveLink: "https://admin.mega-mart.store/auth/login",
+        techStack: [
+            "Nextjs",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Mongoose",
+            "Tailwind CSS",
+        ],
+    },
+    {
         title: "Megha Mart",
         summary:
             "Megha Mart is a full-featured online shopping platform that allows users to browse, compare, and purchase products across multiple categories. It offers a seamless shopping experience with secure payments, real-time order tracking, and personalized recommendations, making online shopping fast, convenient, and enjoyable.",
