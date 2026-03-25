@@ -4,8 +4,8 @@ export const projectsData = [
         summary:
             "Optimizify is a full-featured portfolio management system that allows users to create, update, and manage their projects seamlessly. It features a dynamic admin dashboard, responsive UI, and optimized performance for production, offering a smooth and intuitive experience for both users and admins.",
         projectType: "Company",
-        githubLink: "https://github.com/Sadman-Sakib748/megha-mart",
-        liveLink: "https://admin.mega-mart.store/auth/login",
+        githubLink: "https://github.com/Sadman-Sakib748/optimize",
+        liveLink: "https://optimize-a5j1.vercel.app/",
         techStack: [
             "Nextjs",
             "Node.js",
